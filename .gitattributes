@@ -1,0 +1,7 @@
+# Ignore C++ files from language statistics
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
+
+# Ensure Dart files are explicitly counted
+*.dart linguist-detectable=true
